@@ -36,7 +36,7 @@ export default function NewItem() {
       <h2 className="text-xl font-bold text-gray-700 mb-2">Add New Item</h2>
 
       {/* Name Field */}
-      <div className="flex flex-col gap-1">
+      <div className="flex flex-col gap-2">
         <label className="text-sm font-medium text-gray-600">Item Name</label>
         <input
           type="text"
@@ -90,7 +90,7 @@ export default function NewItem() {
       {/* Submit Button */}
       <button
         type="submit"
-        className="w-full mt-2 py-2 px-4 bg-blue-600 text-white font-bold text-lg rounded-md hover:bg-blue-700 active:bg-blue-800 transition-colors duration-200 cursor-pointer"
+        className="mt-2 py-2 px-4 bg-blue-600 text-white font-bold text-lg rounded-md hover:bg-blue-700 active:bg-blue-800 transition-colors duration-200 cursor-pointer"
       >
         +
       </button>
